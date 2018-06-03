@@ -20,7 +20,7 @@ check_cmd_%:
 # for vim
 prepare_vim: check_vim_deps deploy_vim_configs manage_vim_plugins $(CTAGS_CONFIG) prepare_rubocop
 
-check_vim_deps: check_cmd_git check_cmd_ctags check_cmd_rubocop
+check_vim_deps: check_cmd_git check_cmd_ctags
 
 deploy_vim_configs: plugin/configs/*.vim plugin/*.vim
 	@mkdir -p $(VIM_PLUGIN_DIR)
