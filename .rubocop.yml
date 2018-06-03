@@ -1,0 +1,30 @@
+Style/Documentation:
+  Enabled: false
+
+Style/StringLiterals:
+  EnforcedStyle: double_quotes
+
+Style/StringLiteralsInInterpolation:
+  EnforcedStyle: double_quotes
+
+Metrics/LineLength:
+  Max: 100
+  AllowURI: true
+  URISchemes:
+    - http
+    - https
+
+Metrics/MethodLength:
+  Exclude:
+      - test/**/*
+
+Metrics/ModuleLength:
+  Exclude:
+      - test/**/*
+
+Metrics/ClassLength:
+  Exclude:
+      - test/**/*
+
+AllCops:
+  TargetRubyVersion: 2.4
