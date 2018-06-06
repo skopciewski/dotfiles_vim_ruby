@@ -17,14 +17,17 @@ Metrics/LineLength:
 Metrics/MethodLength:
   Exclude:
       - test/**/*
+      - spec/**/*
 
 Metrics/ModuleLength:
   Exclude:
       - test/**/*
+      - spec/**/*
 
 Metrics/ClassLength:
   Exclude:
       - test/**/*
+      - spec/**/*
 
 AllCops:
   TargetRubyVersion: 2.4
