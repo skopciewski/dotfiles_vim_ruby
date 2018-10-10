@@ -1,6 +1,9 @@
 Style/Documentation:
   Enabled: false
 
+Layout/EmptyLineAfterGuardClause:
+  Enabled: false
+
 Style/StringLiterals:
   EnforcedStyle: double_quotes
 
