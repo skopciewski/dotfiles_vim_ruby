@@ -32,5 +32,10 @@ Metrics/ClassLength:
       - test/**/*
       - spec/**/*
 
+Metrics/BlockLength:
+  Exclude:
+      - test/**/*
+      - spec/**/*
+
 AllCops:
   TargetRubyVersion: 2.5
