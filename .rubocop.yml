@@ -1,7 +1,7 @@
-Style/Documentation:
-  Enabled: false
+Style/ANewCop:
+  Enabled: true
 
-Layout/EmptyLineAfterGuardClause:
+Style/Documentation:
   Enabled: false
 
 Style/StringLiterals:
@@ -9,6 +9,9 @@ Style/StringLiterals:
 
 Style/StringLiteralsInInterpolation:
   EnforcedStyle: double_quotes
+
+Layout/EmptyLineAfterGuardClause:
+  Enabled: false
 
 Layout/LineLength:
   Max: 100
