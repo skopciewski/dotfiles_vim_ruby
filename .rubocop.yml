@@ -1,14 +1,6 @@
-Style/HashEachMethods:
-  Enabled: true
-
-Style/HashTransformKeys:
-  Enabled: true
-
-Style/HashTransformValues:
-  Enabled: true
-
-Style/Documentation:
-  Enabled: false
+AllCops:
+  NewCops: enable
+  TargetRubyVersion: 2.5
 
 Style/StringLiterals:
   EnforcedStyle: double_quotes
@@ -45,6 +37,3 @@ Metrics/BlockLength:
   Exclude:
       - test/**/*
       - spec/**/*
-
-AllCops:
-  TargetRubyVersion: 2.5
